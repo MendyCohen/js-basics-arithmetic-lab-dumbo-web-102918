@@ -7,5 +7,6 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
-let ageIsValid = Math.isInteger(currentAge);
-ageIsValid;
+function ageIsValid(n){
+  return n.isInteger()
+}
